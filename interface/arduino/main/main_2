@@ -1,0 +1,61 @@
+#include <Adafruit_NeoPixel.h>
+
+#define PIXEL_PIN 27
+#define PIXEL_COUNT 24
+bool fadeDirection = true; // true for fading in, false for fading out
+static unsigned long lastUpdateTime = 0;
+static int brightness = 100;
+static int brightnessMin = 1;
+static int brightnessMax = 100;
+static int fadeAmount = 1;
+static int interval = 1;
+
+Adafruit_NeoPixel ledRingOK = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  ledRingOK.begin();
+  ledRingOK.setBrightness(100);
+  // Set all pixels to white
+  for (int i = 0; i < PIXEL_COUNT; i++) {
+    ledRingOK.setPixelColor(i, 255, 255, 255);
+  }
+  ledRingOK.show();
+}
+
+void loop() {
+  pixelsPulse(ledRingOK);
+  printTime();
+}
+
+void printTime() {
+  static unsigned long lastTime = 0;
+  unsigned long currentTime = millis();
+  if (currentTime - lastTime >= interval) {
+    lastTime = currentTime;
+    Serial.print("Current time: ");
+    Serial.println(String(currentTime));
+  }
+}
+
+void pixelsPulse(Adafruit_NeoPixel& pixels) {
+  unsigned long currentTime = millis();
+
+  // Only update every 20 milliseconds (50 updates per second)
+  if (currentTime - lastUpdateTime < 20) {
+    return;
+  }
+  lastUpdateTime = currentTime;
+
+  if (fadeDirection) { // Fade to black
+    brightness -= fadeAmount;
+  } else { // Fade to white
+    brightness += fadeAmount;
+  }
+
+  if (brightness <= brightnessMin || brightness >= brightnessMax) { // Flip direction if it reaches minimum or maximum
+    fadeDirection = !fadeDirection;
+  }
+
+  pixels.setBrightness(brightness);
+  pixels.show();
+}

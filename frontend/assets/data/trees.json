@@ -1,0 +1,514 @@
+[
+    {
+        "id": 1,
+        "answers": [
+            "a",
+            "a",
+            "a",
+            "a",
+            "a"
+        ],
+        "name": "Pear Tree",
+        "description": "Just like the raven pear tree that produces large quantities of juicy, sweet fruit, you too are a generous person who never tires of giving. You are a hard worker. \n\nResilience characterises you, you are a strong person and you are unlikely to be knocked down by adversity. \n\nYour secret to completing your life projects is the constant care and love you put into everything you do!",
+        "audioLocation": "assets/audio/results/Pear Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Pear Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Pear Tree.png"
+    },
+    {
+        "id": 2,
+        "answers": [
+            "a",
+            "a",
+            "a",
+            "a",
+            "b"
+        ],
+        "name": "Chestnut Tree",
+        "description": "The chestnut tree has for centuries provided a precious and nutritious fruit, the chestnut, which has played an important role in the history and culture of the Piedmont region. \n\nYou are a person who has a lot to give, who puts others before yourself and this generosity comes back to you because you are a person who leaves your mark on the lives of others. \n\nYou are always remembered for your elegant and sophisticated personality",
+        "audioLocation": "assets/audio/results/Chestnut Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Chestnut Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Chestnut Tree.png"
+    },
+    {
+        "id": 3,
+        "answers": [
+            "a",
+            "a",
+            "a",
+            "b",
+            "a"
+        ],
+        "name": "Hazelnut Tree",
+        "description": "You are a sweet person, just like the hazelnuts the tree gives each year and which are then used in the confectionery market. \n\nYou are attached to family and traditions. You have a tenacious, determined and resilient personality that does not give up easily when faced with difficulties, just like the hazelnut tree that plays an important role in food production and the ecosystem in which it lives.",
+        "audioLocation": "assets/audio/results/Hazelnut Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Hazelnut Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Hazelnut Tree.png"
+    },
+    {
+        "id": 4,
+        "answers": [
+            "a",
+            "a",
+            "a",
+            "b",
+            "b"
+        ],
+        "name": "Checker Tree",
+        "description": "Your personality is sweet, generous and affectionate, able to give pleasure and satisfaction to others, just like the fragrant flowers and high-quality honey you can obtain from them. \n\nYou are a stable and self-confident person able to face life's challenges with strength and determination.",
+        "audioLocation": "assets/audio/results/Checker Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Checker Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Checker Tree.png"
+    },
+    {
+        "id": 5,
+        "answers": [
+            "a",
+            "a",
+            "b",
+            "a",
+            "a"
+        ],
+        "name": "Black Alder",
+        "description": "You are a high achiever and passionate which forces people to look up to you. You are often charming and easily relate with a broad mix of personalities. \n\nYou are confident and have a drive to achieve more, always willing to find solutions and work for what you want. When it comes to work you never miss a deadline. You also have a sweet tooth.",
+        "audioLocation": "assets/audio/results/Black Alder.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Black Alder.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Black Alder.png"
+    },
+    {
+        "id": 6,
+        "answers": [
+            "a",
+            "a",
+            "b",
+            "a",
+            "b"
+        ],
+        "name": "Silver Fir Tree",
+        "description": "You and the Silver Fir are a perfect match with your willpower and grit. You are able to endure and fight through challenges. You are optimistic and always encourages & supports your close ones. \n\nYou never give up regardless of the obstacles. You are an imaginative and strategic thinker with a plan for everything. You are a bold and strong-willed leader. \n\nWhen it comes to unwinding, you prefer a peaceful cold evening curled up with a good book in a cozy corner. Silver Firs can be the symbol of appreciation as they are the tree of choice for live Christmas trees and often bring families together during the holiday season.",
+        "audioLocation": "assets/audio/results/Silver Fir Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Silver Fir Tree.png",
+        "visualType": "video",
+        "visualLocation": "assets/video/Silver Fir Tree.mov"
+    },
+    {
+        "id": 7,
+        "answers": [
+            "a",
+            "a",
+            "b",
+            "b",
+            "a"
+        ],
+        "name": "Silver Fir Tree",
+        "description": "You and the Silver Fir are a perfect match with your willpower and grit. You are able to endure and fight through challenges. You are optimistic and always encourages & supports your close ones. \n\nYou never give up regardless of the obstacles. You are an imaginative and strategic thinker with a plan for everything. You are a bold and strong-willed leader. \n\nWhen it comes to unwinding, you prefer a peaceful cold evening curled up with a good book in a cozy corner. Silver Firs can be the symbol of appreciation as they are the tree of choice for live Christmas trees and often bring families together during the holiday season.",
+        "audioLocation": "assets/audio/results/Silver Fir Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Silver Fir Tree.png",
+        "visualType": "video",
+        "visualLocation": "assets/video/Silver Fir Tree.mov"
+    },
+    {
+        "id": 8,
+        "answers": [
+            "a",
+            "a",
+            "b",
+            "b",
+            "b"
+        ],
+        "name": "Wild Cherry Tree",
+        "description": "You are a delicate and harmonious person with great inner and outer beauty, just like the spectacular blossoming of this tree with white and pink flowers. \n\nYou are a generous person who takes pleasure in sharing joy with everyone around you.",
+        "audioLocation": "assets/audio/results/Wild Cherry Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Wild Cherry Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Wild Cherry Tree.png"
+    },
+    {
+        "id": 9,
+        "answers": [
+            "a",
+            "b",
+            "a",
+            "a",
+            "a"
+        ],
+        "name": "Frassin Tree",
+        "description": "You are a dynamic, vital and renewing person just like the Ash tree associated with the energy of growth and rebirth because new trees can sprout from its fruit. \n\nYour personality is balanced, you prefer to think things through before acting in order to do the right thing.",
+        "audioLocation": "assets/audio/results/Frassin Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Frassin Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Frassin Tree.png"
+    },
+    {
+        "id": 10,
+        "answers": [
+            "a",
+            "b",
+            "a",
+            "a",
+            "b"
+        ],
+        "name": "White Willow",
+        "description": "You are flexible and adaptable, able to bend and resist adversity without breaking. \n\nYou prefer quiet and protected environments, but at the same time you are able to adapt to different situations and are able to cope with life's difficulties. \n\nYou are a thoughtful and deep personality, able to find peace and inner balance even in the most complex situations.",
+        "audioLocation": "assets/audio/results/White Willow.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/White Willow.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/White Willow.png"
+    },
+    {
+        "id": 11,
+        "answers": [
+            "a",
+            "b",
+            "a",
+            "b",
+            "a"
+        ],
+        "name": "Wild Apple Tree",
+        "description": "You are a full of life, generous and altruistic person who tries to give your neighbour everything you own, like wild apple tree with its fruit. \n\nYou are a creative person, capable of seeking new solutions and exploiting the resources in the environment to grow.",
+        "audioLocation": "assets/audio/results/Wild Apple Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Wild Apple Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Wild Apple Tree.png"
+    },
+    {
+        "id": 12,
+        "answers": [
+            "a",
+            "b",
+            "a",
+            "b",
+            "b"
+        ],
+        "name": "Holm Oak Tree",
+        "description": "You are a solid and reliable person, offering support and protection to the people you love. \n\nFor the ancient Romans it was considered a sacred tree; you are a deep and reflective person, who seeks to find deeper meaning in life and to connect with something greater than oneself.",
+        "audioLocation": "assets/audio/results/Holm Oak Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Holm Oak Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Holm Oak Tree.png"
+    },
+    {
+        "id": 13,
+        "answers": [
+            "a",
+            "b",
+            "b",
+            "a",
+            "a"
+        ],
+        "name": "Birch Tree",
+        "description": "Just like the birch tree that survives in harsh climates and on infertile soil, you too are a strong and persevering person.\n\nYou are able to overcome life's challenges and have the great ability to adapt to difficult situations. Don't be surprised if in your group of friends you are the one sought out to dispense advice! \n\nYou are a knowledgeable person who always knows what to say at the right time without ever lacking your delicate elegance.",
+        "audioLocation": "assets/audio/results/Birch Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Birch Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Birch Tree.png"
+    },
+    {
+        "id": 14,
+        "answers": [
+            "a",
+            "b",
+            "b",
+            "a",
+            "b"
+        ],
+        "name": "White Poplar Tree",
+        "description": "You are a sensitive and delicate person who responds to changes quickly and with a spirit of adaptation; your only belief is freedom and lightness of life. Just like the foliage of the white poplar tree when it moves with the wind.",
+        "audioLocation": "assets/audio/results/White Poplar Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/White Poplar Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/White Poplar Tree.png"
+    },
+    {
+        "id": 15,
+        "answers": [
+            "a",
+            "b",
+            "b",
+            "b",
+            "a"
+        ],
+        "name": "Oak Tree",
+        "description": "You are a strong and wise person who inspires respect and trust, able to provide solid and reliable support to the people around you. \n\nYou are patient and every moment is good to learn, to share your knowledge with others and to pass on the values of tradition.",
+        "audioLocation": "assets/audio/results/Oak Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Oak Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Oak Tree.png"
+    },
+    {
+        "id": 16,
+        "answers": [
+            "a",
+            "b",
+            "b",
+            "b",
+            "b"
+        ],
+        "name": "Oak Tree",
+        "description": "You are a strong and wise person who inspires respect and trust, able to provide solid and reliable support to the people around you. \n\nYou are patient and every moment is good to learn, to share your knowledge with others and to pass on the values of tradition.",
+        "audioLocation": "assets/audio/results/Oak Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Oak Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Oak Tree.png"
+    },
+    {
+        "id": 17,
+        "answers": [
+            "b",
+            "a",
+            "a",
+            "a",
+            "a"
+        ],
+        "name": "Rowan",
+        "description": "Your personality is joyful and lively, able to enlighten the world around you with its presence like the red fruits that characterise the tree. \n\nYour personality is resilient and capable of overcoming life's difficulties just like the tree that lives in harsh conditions, in the mountains, and has to fight against the weather and climate difficulties. \n\nYou are a charming person capable of attracting and protecting others.",
+        "audioLocation": "assets/audio/results/Rowan.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Rowan.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Rowan.png"
+    },
+    {
+        "id": 18,
+        "answers": [
+            "b",
+            "a",
+            "a",
+            "a",
+            "b"
+        ],
+        "name": "Rowan",
+        "description": "Your personality is joyful and lively, able to enlighten the world around you with its presence like the red fruits that characterise the tree. \n\nYour personality is resilient and capable of overcoming life's difficulties just like the tree that lives in harsh conditions, in the mountains, and has to fight against the weather and climate difficulties. \n\nYou are a charming person capable of attracting and protecting others.",
+        "audioLocation": "assets/audio/results/Rowan.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Rowan.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Rowan.png"
+    },
+    {
+        "id": 19,
+        "answers": [
+            "b",
+            "a",
+            "a",
+            "b",
+            "a"
+        ],
+        "name": "Larch Tree",
+        "description": "You are an elegant and regal person, capable of defying everyday problems with pride, just like the imposing and majestic broad foliage of the Larch tree.",
+        "audioLocation": "assets/audio/results/Larch Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Larch Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Larch Tree.png"
+    },
+    {
+        "id": 20,
+        "answers": [
+            "b",
+            "a",
+            "a",
+            "b",
+            "b"
+        ],
+        "name": "Larch Tree",
+        "description": "You are an elegant and regal person, capable of defying everyday problems with pride, just like the imposing and majestic broad foliage of the Larch tree.",
+        "audioLocation": "assets/audio/results/Larch Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Larch Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Larch Tree.png"
+    },
+    {
+        "id": 21,
+        "answers": [
+            "b",
+            "a",
+            "b",
+            "a",
+            "a"
+        ],
+        "name": "Yew Tree",
+        "description": "You are a person with great inner strength who is able to adapt to the challenges of time. You have a stable and resilient personality like the Yew Tree that can live for hundreds of years.\n\nYours is an elusive and mysterious personality, able to protect itself from external threats just like the bark of the Yew tree that is smooth and grey, but its leaves and fruit are toxic.",
+        "audioLocation": "assets/audio/results/Yew Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Yew Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Yew Tree.png"
+    },
+    {
+        "id": 22,
+        "answers": [
+            "b",
+            "a",
+            "b",
+            "a",
+            "b"
+        ],
+        "name": "Yew Tree",
+        "description": "You are a person with great inner strength who is able to adapt to the challenges of time. You have a stable and resilient personality like the Yew Tree that can live for hundreds of years.\n\nYours is an elusive and mysterious personality, able to protect itself from external threats just like the bark of the Yew tree that is smooth and grey, but its leaves and fruit are toxic.",
+        "audioLocation": "assets/audio/results/Yew Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Yew Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Yew Tree.png"
+    },
+    {
+        "id": 23,
+        "answers": [
+            "b",
+            "a",
+            "b",
+            "b",
+            "a"
+        ],
+        "name": "Hop Hornbeam Tree",
+        "description": "You are a strong and resilient person who knows how to withstand the storms of life, but at the same time you can flexibly adapt to the challenges you may encounter in your environment, without ever losing sight of yourself.",
+        "audioLocation": "assets/audio/results/Hop Hornbeam Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Hop Hornbeam Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Hop Hornbeam Tree.png"
+    },
+    {
+        "id": 24,
+        "answers": [
+            "b",
+            "a",
+            "b",
+            "b",
+            "b"
+        ],
+        "name": "Hop Hornbeam Tree",
+        "description": "You are a strong and resilient person who knows how to withstand the storms of life, but at the same time you can flexibly adapt to the challenges you may encounter in your environment, without ever losing sight of yourself.",
+        "audioLocation": "assets/audio/results/Hop Hornbeam Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Hop Hornbeam Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Hop Hornbeam Tree.png"
+    },
+    {
+        "id": 25,
+        "answers": [
+            "b",
+            "b",
+            "a",
+            "a",
+            "a"
+        ],
+        "name": "Flowering Ash",
+        "description": "You are a quiet but at the same time tenacious person, you adapt to difficult situations without losing yourself. \n\nYou are a person who offers protection and security to others but does not seek visibility or attention in an intrusive manner because everything that you do, you do it for the pleasure of helping others.",
+        "audioLocation": "assets/audio/results/Flowering Ash.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Flowering Ash.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Flowering Ash.png"
+    },
+    {
+        "id": 26,
+        "answers": [
+            "b",
+            "b",
+            "a",
+            "a",
+            "b"
+        ],
+        "name": "Turkey Oak",
+        "description": "You are a protective and generous person, like the acorns of this tree that represent a source of nourishment for wildlife. \n\nYou are patient and persevering who does not let difficulties discourage you and strives to achieve your long-term goals. \n\nYou enjoy collaborating in groups by including and building positive relationships to work together with others to achieve a common goal.",
+        "audioLocation": "assets/audio/results/Turkey Oak.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Turkey Oak.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Turkey Oak.png"
+    },
+    {
+        "id": 27,
+        "answers": [
+            "b",
+            "b",
+            "a",
+            "b",
+            "a"
+        ],
+        "name": "Hazelnut Tree",
+        "description": "You are a sweet person, just like the hazelnuts the tree gives each year and which are then used in the confectionery market. You are attached to family and traditions. \n\nYou have a tenacious, determined and resilient personality that does not give up easily when faced with difficulties, just like the hazelnut tree that plays an important role in food production and the ecosystem in which it lives.",
+        "audioLocation": "assets/audio/results/Hazelnut Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Hazelnut Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Hazelnut Tree.png"
+    },
+    {
+        "id": 28,
+        "answers": [
+            "b",
+            "b",
+            "a",
+            "b",
+            "b"
+        ],
+        "name": "Maple Tree",
+        "description": "You have a lot in common with the maple tree than you think. You are free spirited and open minded. You are vibrant and you get along with everybody, everybody loves to hang around with you. \n\nYou have a wide imagination and is ambitious but can also be shy and reserved. You crave new experiences and love creating memories.You are an extrovert and lover of animals.",
+        "audioLocation": "assets/audio/results/Maple Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Maple Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Maple Tree.png"
+    },
+    {
+        "id": 29,
+        "answers": [
+            "b",
+            "b",
+            "b",
+            "a",
+            "a"
+        ],
+        "name": "Pedunculate Oak",
+        "description": "You are a delicate and elegant person, like the leaves of the Farnia tree that conjure up an image of beauty and harmony. \n\nYou have a sensitive and refined personality, capable of appreciating and creating beauty around you. You love open, bright spaces just like this tree. You love nature and protect the environment while preserving its beauty and richness.",
+        "audioLocation": "assets/audio/results/Pedunculate Oak.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Pedunculate Oak.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Pedunculate Oak.png"
+    },
+    {
+        "id": 30,
+        "answers": [
+            "b",
+            "b",
+            "b",
+            "a",
+            "b"
+        ],
+        "name": "Maple Tree",
+        "description": "You have a lot in common with the maple tree than you think. You are free spirited and open minded. You are vibrant and you get along with everybody, everybody loves to hang around with you.\n\nYou have a wide imagination and is ambitious but can also be shy and reserved. You crave new experiences and love creating memories.You are an extrovert and lover of animals.",
+        "audioLocation": "assets/audio/results/Maple Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Maple Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Maple Tree.png"
+    },
+    {
+        "id": 31,
+        "answers": [
+            "b",
+            "b",
+            "b",
+            "b",
+            "a"
+        ],
+        "name": "Pedunculate Oak",
+        "description": "You are a delicate and elegant person, like the leaves of the Farnia tree that conjure up an image of beauty and harmony. \n\nYou have a sensitive and refined personality, capable of appreciating and creating beauty around you. You love open, bright spaces just like this tree. You love nature and protect the environment while preserving its beauty and richness.",
+        "audioLocation": "assets/audio/results/Pedunculate Oak.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Pedunculate Oak.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Pedunculate Oak.png"
+    },
+    {
+        "id": 32,
+        "answers": [
+            "b",
+            "b",
+            "b",
+            "b",
+            "b"
+        ],
+        "name": "Birch Tree",
+        "description": "Just like the birch tree that survives in harsh climates and on infertile soil, you too are a strong and persevering person. \n\nYou are able to overcome life's challenges and have the great ability to adapt to difficult situations. Don't be surprised if in your group of friends you are the one sought out to dispense advice! \n\nYou are a knowledgeable person who always knows what to say at the right time without ever lacking your delicate elegance.",
+        "audioLocation": "assets/audio/results/Birch Tree.mp3",
+        "qrCodeLocation": "assets/img/qrcodes/Birch Tree.png",
+        "visualType": "image",
+        "visualLocation": "assets/img/trees/Birch Tree.png"
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "question": {
+            "type": "1",
+            "title": "If you had the power to read minds, how would you use it?",
+            "answerA": "Embrace emotions",
+            "answerALocation": "assets/img/1_1_A.jpg",
+            "answerB": "Spy on peoples' thoughts",
+            "answerBLocation": "assets/img/1_1_B.jpg",
+            "questionAudio": "assets/audio/questions/1.mp3",
+            "answerAAudio": "assets/audio/answers/1.mp3",
+            "answerBAudio": "assets/audio/answers/2.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "title": "What type of dessert are you?",
+            "answerA": "Sweet",
+            "answerALocation": "assets/img/1_2_A.jpg",
+            "answerB": "Sour",
+            "answerBLocation": "assets/img/1_2_B.jpg",
+            "questionAudio": "assets/audio/questions/2.mp3",
+            "answerAAudio": "assets/audio/answers/3.mp3",
+            "answerBAudio": "assets/audio/answers/4.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "title": "If you won the lottery, how would you spend your money?",
+            "answerA": "Giving it to people",
+            "answerALocation": "assets/img/1_3_A.jpg",
+            "answerB": "Shopping spree",
+            "answerBLocation": "assets/img/1_3_B.jpg",
+            "questionAudio": "assets/audio/questions/3.mp3",
+            "answerAAudio": "assets/audio/answers/5.mp3",
+            "answerBAudio": "assets/audio/answers/6.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "title": "What is the most exciting part of a party?",
+            "answerA": "Dancing all night long",
+            "answerALocation": "assets/img/2_1_A.jpg",
+            "answerB": "Standing at the bar",
+            "answerBLocation": "assets/img/2_1_B.jpg",
+            "questionAudio": "assets/audio/questions/4.mp3",
+            "answerAAudio": "assets/audio/answers/7.mp3",
+            "answerBAudio": "assets/audio/answers/8.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "title": "It's halloween. What would you rather pick to dress up?",
+            "answerA": "Something wild",
+            "answerALocation": "assets/img/2_2_A.jpg",
+            "answerB": "Something to hide",
+            "answerBLocation": "assets/img/2_2_B.jpg",
+            "questionAudio": "assets/audio/questions/5.mp3",
+            "answerAAudio": "assets/audio/answers/9.mp3",
+            "answerBAudio": "assets/audio/answers/10.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "title": "You have a dog. What's the first accessory you buy for them?",
+            "answerA": "A collar",
+            "answerALocation": "assets/img/2_3_A.jpg",
+            "answerB": "A costume",
+            "answerBLocation": "assets/img/2_3_B.jpg",
+            "questionAudio": "assets/audio/questions/6.mp3",
+            "answerAAudio": "assets/audio/answers/11.mp3",
+            "answerBAudio": "assets/audio/answers/12.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "title": "Which of these decor styles would you rather pick?",
+            "answerA": "Modern and minimalistic",
+            "answerALocation": "assets/img/3_1_A.jpg",
+            "answerB": "Colorful interior",
+            "answerBLocation": "assets/img/3_1_B.jpg",
+            "questionAudio": "assets/audio/questions/7.mp3",
+            "answerAAudio": "assets/audio/answers/13.mp3",
+            "answerBAudio": "assets/audio/answers/14.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "title": "Pick a place to live.",
+            "answerA": "Near a lake or river",
+            "answerALocation": "assets/img/3_2_A.jpg",
+            "answerB": "In the middle of the city",
+            "answerBLocation": "assets/img/3_2_B.jpg",
+            "questionAudio": "assets/audio/questions/8.mp3",
+            "answerAAudio": "assets/audio/answers/15.mp3",
+            "answerBAudio": "assets/audio/answers/16.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "title": "Pick a job you'd rather do.",
+            "answerA": "Painter",
+            "answerALocation": "assets/img/3_3_A.jpg",
+            "answerB": "Doctor",
+            "answerBLocation": "assets/img/3_3_B.jpg",
+            "questionAudio": "assets/audio/questions/9.mp3",
+            "answerAAudio": "assets/audio/answers/17.mp3",
+            "answerBAudio": "assets/audio/answers/18.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "title": "You just finished work. Usual gym appointment or going home?",
+            "answerA": "Gym",
+            "answerALocation": "assets/img/4_1_A.jpg",
+            "answerB": "Home",
+            "answerBLocation": "assets/img/4_1_B.jpg",
+            "questionAudio": "assets/audio/questions/10.mp3",
+            "answerAAudio": "assets/audio/answers/19.mp3",
+            "answerBAudio": "assets/audio/answers/20.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "title": "Which of these describe you the most?",
+            "answerA": "Risk lover",
+            "answerALocation": "assets/img/4_2_A.jpg",
+            "answerB": "Play it safe",
+            "answerBLocation": "assets/img/4_2_B.jpg",
+            "questionAudio": "assets/audio/questions/11.mp3",
+            "answerAAudio": "assets/audio/answers/21.mp3",
+            "answerBAudio": "assets/audio/answers/22.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "title": "Which one are you amongst your friends?",
+            "answerA": "The funny one",
+            "answerALocation": "assets/img/5_1_A.jpg",
+            "answerB": "The chill one",
+            "answerBLocation": "assets/img/5_1_B.jpg",
+            "questionAudio": "assets/audio/questions/12.mp3",
+            "answerAAudio": "assets/audio/answers/23.mp3",
+            "answerBAudio": "assets/audio/answers/24.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "title": "Which place do you feel more comfortable studying?",
+            "answerA": "Library",
+            "answerALocation": "assets/img/5_2_A.jpg",
+            "answerB": "In a café or bar",
+            "answerBLocation": "assets/img/5_2_B.jpg",
+            "questionAudio": "assets/audio/questions/13.mp3",
+            "answerAAudio": "assets/audio/answers/25.mp3",
+            "answerBAudio": "assets/audio/answers/26.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "title": "Which of these activities do you enjoy the most?",
+            "answerA": "Attending social events",
+            "answerALocation": "assets/img/5_3_A.jpg",
+            "answerB": "Spending time alone",
+            "answerBLocation": "assets/img/5_3_B.jpg",
+            "questionAudio": "assets/audio/questions/14.mp3",
+            "answerAAudio": "assets/audio/answers/27.mp3",
+            "answerBAudio": "assets/audio/answers/28.mp3"
+        }
+    }
+]
