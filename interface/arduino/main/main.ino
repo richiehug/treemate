@@ -6,7 +6,7 @@
 USBKeyboard Keyboard;
 
 // const int buttonCPin = 7; // C button / OK
-const int buttonAPin = 5; // A button
+const int buttonAPin = 18; // A button
 const int buttonBPin = 6; // B button
 const int buttonDPin = 10; // D button
 

@@ -2,183 +2,523 @@
     {
         "question": {
             "type": "1",
-            "title": "If you had the power to read minds, how would you use it?",
-            "answerA": "Embrace emotions",
-            "answerALocation": "assets/img/1_1_A.jpg",
-            "answerB": "Spy on peoples' thoughts",
-            "answerBLocation": "assets/img/1_1_B.jpg",
-            "questionAudio": "assets/audio/questions/1.mp3",
-            "answerAAudio": "assets/audio/answers/1.mp3",
-            "answerBAudio": "assets/audio/answers/2.mp3"
+            "questionImage": "assets/img/questions/Dolcezza_1.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_1.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_1B.mp3"
         }
     },
     {
         "question": {
             "type": "1",
-            "title": "What type of dessert are you?",
-            "answerA": "Sweet",
-            "answerALocation": "assets/img/1_2_A.jpg",
-            "answerB": "Sour",
-            "answerBLocation": "assets/img/1_2_B.jpg",
-            "questionAudio": "assets/audio/questions/2.mp3",
-            "answerAAudio": "assets/audio/answers/3.mp3",
-            "answerBAudio": "assets/audio/answers/4.mp3"
+            "questionImage": "assets/img/questions/Dolcezza_2.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_2.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_2B.mp3"
         }
     },
     {
         "question": {
             "type": "1",
-            "title": "If you won the lottery, how would you spend your money?",
-            "answerA": "Giving it to people",
-            "answerALocation": "assets/img/1_3_A.jpg",
-            "answerB": "Shopping spree",
-            "answerBLocation": "assets/img/1_3_B.jpg",
-            "questionAudio": "assets/audio/questions/3.mp3",
-            "answerAAudio": "assets/audio/answers/5.mp3",
-            "answerBAudio": "assets/audio/answers/6.mp3"
+            "questionImage": "assets/img/questions/Dolcezza_3.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_3.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "questionImage": "assets/img/questions/Dolcezza_4.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_4.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "questionImage": "assets/img/questions/Dolcezza_5.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_5.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "questionImage": "assets/img/questions/Dolcezza_6.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_6.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "questionImage": "assets/img/questions/Dolcezza_7.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_7.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "1",
+            "questionImage": "assets/img/questions/Dolcezza_8.jpg",
+            "questionAudio": "assets/audio/questions/Dolcezza_8.mp3",
+            "answerAAudio": "assets/audio/answers/Dolcezza_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Dolcezza_8B.mp3"
         }
     },
     {
         "question": {
             "type": "2",
-            "title": "What is the most exciting part of a party?",
-            "answerA": "Dancing all night long",
-            "answerALocation": "assets/img/2_1_A.jpg",
-            "answerB": "Standing at the bar",
-            "answerBLocation": "assets/img/2_1_B.jpg",
-            "questionAudio": "assets/audio/questions/4.mp3",
-            "answerAAudio": "assets/audio/answers/7.mp3",
-            "answerBAudio": "assets/audio/answers/8.mp3"
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_1.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_1.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_1B.mp3"
         }
     },
     {
         "question": {
             "type": "2",
-            "title": "It's halloween. What would you rather pick to dress up?",
-            "answerA": "Something wild",
-            "answerALocation": "assets/img/2_2_A.jpg",
-            "answerB": "Something to hide",
-            "answerBLocation": "assets/img/2_2_B.jpg",
-            "questionAudio": "assets/audio/questions/5.mp3",
-            "answerAAudio": "assets/audio/answers/9.mp3",
-            "answerBAudio": "assets/audio/answers/10.mp3"
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_2.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_2.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_2B.mp3"
         }
     },
     {
         "question": {
             "type": "2",
-            "title": "You have a dog. What's the first accessory you buy for them?",
-            "answerA": "A collar",
-            "answerALocation": "assets/img/2_3_A.jpg",
-            "answerB": "A costume",
-            "answerBLocation": "assets/img/2_3_B.jpg",
-            "questionAudio": "assets/audio/questions/6.mp3",
-            "answerAAudio": "assets/audio/answers/11.mp3",
-            "answerBAudio": "assets/audio/answers/12.mp3"
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_3.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_3.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_4.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_4.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_5.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_5.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_6.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_6.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_7.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_7.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "2",
+            "questionImage": "assets/img/questions/Ricerca-dattenzioni_8.jpg",
+            "questionAudio": "assets/audio/questions/Ricerca-dattenzioni_8.mp3",
+            "answerAAudio": "assets/audio/answers/Ricerca-dattenzioni_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Ricerca-dattenzioni_8B.mp3"
         }
     },
     {
         "question": {
             "type": "3",
-            "title": "Which of these decor styles would you rather pick?",
-            "answerA": "Modern and minimalistic",
-            "answerALocation": "assets/img/3_1_A.jpg",
-            "answerB": "Colorful interior",
-            "answerBLocation": "assets/img/3_1_B.jpg",
-            "questionAudio": "assets/audio/questions/7.mp3",
-            "answerAAudio": "assets/audio/answers/13.mp3",
-            "answerBAudio": "assets/audio/answers/14.mp3"
+            "questionImage": "assets/img/questions/Creativo_1.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_1.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_1B.mp3"
         }
     },
     {
         "question": {
             "type": "3",
-            "title": "Pick a place to live.",
-            "answerA": "Near a lake or river",
-            "answerALocation": "assets/img/3_2_A.jpg",
-            "answerB": "In the middle of the city",
-            "answerBLocation": "assets/img/3_2_B.jpg",
-            "questionAudio": "assets/audio/questions/8.mp3",
-            "answerAAudio": "assets/audio/answers/15.mp3",
-            "answerBAudio": "assets/audio/answers/16.mp3"
+            "questionImage": "assets/img/questions/Creativo_2.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_2.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_2B.mp3"
         }
     },
     {
         "question": {
             "type": "3",
-            "title": "Pick a job you'd rather do.",
-            "answerA": "Painter",
-            "answerALocation": "assets/img/3_3_A.jpg",
-            "answerB": "Doctor",
-            "answerBLocation": "assets/img/3_3_B.jpg",
-            "questionAudio": "assets/audio/questions/9.mp3",
-            "answerAAudio": "assets/audio/answers/17.mp3",
-            "answerBAudio": "assets/audio/answers/18.mp3"
+            "questionImage": "assets/img/questions/Creativo_3.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_3.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Creativo_4.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_4.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Creativo_5.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_5.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Creativo_6.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_6.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Creativo_7.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_7.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Creativo_8.jpg",
+            "questionAudio": "assets/audio/questions/Creativo_8.mp3",
+            "answerAAudio": "assets/audio/answers/Creativo_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Creativo_8B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_1.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_1.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_1B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_2.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_2.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_2B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_3.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_3.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_4.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_4.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_5.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_5.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_6.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_6.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_7.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_7.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "3",
+            "questionImage": "assets/img/questions/Divertimento_8.jpg",
+            "questionAudio": "assets/audio/questions/Divertimento_8.mp3",
+            "answerAAudio": "assets/audio/answers/Divertimento_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Divertimento_8B.mp3"
         }
     },
     {
         "question": {
             "type": "4",
-            "title": "You just finished work. Usual gym appointment or going home?",
-            "answerA": "Gym",
-            "answerALocation": "assets/img/4_1_A.jpg",
-            "answerB": "Home",
-            "answerBLocation": "assets/img/4_1_B.jpg",
-            "questionAudio": "assets/audio/questions/10.mp3",
-            "answerAAudio": "assets/audio/answers/19.mp3",
-            "answerBAudio": "assets/audio/answers/20.mp3"
+            "questionImage": "assets/img/questions/Resiliente_1.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_1.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_1B.mp3"
         }
     },
     {
         "question": {
             "type": "4",
-            "title": "Which of these describe you the most?",
-            "answerA": "Risk lover",
-            "answerALocation": "assets/img/4_2_A.jpg",
-            "answerB": "Play it safe",
-            "answerBLocation": "assets/img/4_2_B.jpg",
-            "questionAudio": "assets/audio/questions/11.mp3",
-            "answerAAudio": "assets/audio/answers/21.mp3",
-            "answerBAudio": "assets/audio/answers/22.mp3"
+            "questionImage": "assets/img/questions/Resiliente_2.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_2.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_2B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_3.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_3.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_4.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_4.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_5.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_5.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_6.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_6.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_7.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_7.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Resiliente_8.jpg",
+            "questionAudio": "assets/audio/questions/Resiliente_8.mp3",
+            "answerAAudio": "assets/audio/answers/Resiliente_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Resiliente_8B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_1.jpg",
+            "questionAudio": "assets/audio/questions/Serio_1.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_1B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_2.jpg",
+            "questionAudio": "assets/audio/questions/Serio_2.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_2B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_3.jpg",
+            "questionAudio": "assets/audio/questions/Serio_3.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_4.jpg",
+            "questionAudio": "assets/audio/questions/Serio_4.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_5.jpg",
+            "questionAudio": "assets/audio/questions/Serio_5.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_6.jpg",
+            "questionAudio": "assets/audio/questions/Serio_6.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_7.jpg",
+            "questionAudio": "assets/audio/questions/Serio_7.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_8.jpg",
+            "questionAudio": "assets/audio/questions/Serio_8.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_8B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_9.jpg",
+            "questionAudio": "assets/audio/questions/Serio_9.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_9A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_9B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "4",
+            "questionImage": "assets/img/questions/Serio_10.jpg",
+            "questionAudio": "assets/audio/questions/Serio_10.mp3",
+            "answerAAudio": "assets/audio/answers/Serio_10A.mp3",
+            "answerBAudio": "assets/audio/answers/Serio_10B.mp3"
         }
     },
     {
         "question": {
             "type": "5",
-            "title": "Which one are you amongst your friends?",
-            "answerA": "The funny one",
-            "answerALocation": "assets/img/5_1_A.jpg",
-            "answerB": "The chill one",
-            "answerBLocation": "assets/img/5_1_B.jpg",
-            "questionAudio": "assets/audio/questions/12.mp3",
-            "answerAAudio": "assets/audio/answers/23.mp3",
-            "answerBAudio": "assets/audio/answers/24.mp3"
+            "questionImage": "assets/img/questions/Intro-extro_1.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_1.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_1A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_1B.mp3"
         }
     },
     {
         "question": {
             "type": "5",
-            "title": "Which place do you feel more comfortable studying?",
-            "answerA": "Library",
-            "answerALocation": "assets/img/5_2_A.jpg",
-            "answerB": "In a café or bar",
-            "answerBLocation": "assets/img/5_2_B.jpg",
-            "questionAudio": "assets/audio/questions/13.mp3",
-            "answerAAudio": "assets/audio/answers/25.mp3",
-            "answerBAudio": "assets/audio/answers/26.mp3"
+            "questionImage": "assets/img/questions/Intro-extro_2.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_2.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_2A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_2B.mp3"
         }
     },
     {
         "question": {
             "type": "5",
-            "title": "Which of these activities do you enjoy the most?",
-            "answerA": "Attending social events",
-            "answerALocation": "assets/img/5_3_A.jpg",
-            "answerB": "Spending time alone",
-            "answerBLocation": "assets/img/5_3_B.jpg",
-            "questionAudio": "assets/audio/questions/14.mp3",
-            "answerAAudio": "assets/audio/answers/27.mp3",
-            "answerBAudio": "assets/audio/answers/28.mp3"
+            "questionImage": "assets/img/questions/Intro-extro_3.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_3.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_3A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_3B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "questionImage": "assets/img/questions/Intro-extro_4.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_4.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_4A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_4B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "questionImage": "assets/img/questions/Intro-extro_5.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_5.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_5A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_5B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "questionImage": "assets/img/questions/Intro-extro_6.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_6.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_6A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_6B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "questionImage": "assets/img/questions/Intro-extro_7.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_7.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_7A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_7B.mp3"
+        }
+    },
+    {
+        "question": {
+            "type": "5",
+            "questionImage": "assets/img/questions/Intro-extro_8.jpg",
+            "questionAudio": "assets/audio/questions/Intro-extro_8.mp3",
+            "answerAAudio": "assets/audio/answers/Intro-extro_8A.mp3",
+            "answerBAudio": "assets/audio/answers/Intro-extro_8B.mp3"
         }
     }
 ]
