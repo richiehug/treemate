@@ -48,18 +48,29 @@ function preload() {
   b = loadImage('assets/img/b.png');
 
   // videos
-  introVideo = createVideo('assets/video/introVideo.mp4');
-  scanHand = createVideo('assets/video/scanHand.mp4');
-  scanning = createVideo('assets/video/scanning.mp4');
+  introVideo = createVideo('assets/video/introVideo.webm');
+  scanHand = createVideo('assets/video/scanHand.webm');
+  scanning = createVideo('assets/video/scanning.webm');
+
+  serial = new p5.SerialPort();
+  serial.list();
+  let options = { baudRate: 9600 };
+
+  setTimeout(() => {
+    serial.openPort("/dev/ttyACM0", options);
+  }, 1000);
 }
 
 function setup() {
+  frameRate(24);
   width = document.documentElement.clientWidth;
   height = document.documentElement.clientHeight;
 
   setVideo(introVideo);
   setVideo(scanHand);
   setVideo(scanning);
+
+  introVideo.loop();
 
   answerAChosen = answerBChosen = false;
   answers = [];
@@ -72,14 +83,7 @@ function setup() {
   handReaderAudioPlayed = false;
   quizFirstRun = true;
   avatarSpeaking = false;
-
-  serial = new p5.SerialPort();
-  serial.list();
-  let options = { baudRate: 9600 };
-
-  setTimeout(() => {
-    serial.openPort("/dev/cu.usbmodem102", options);
-  }, 1000);
+  scanningVideoLoaded = false;
 
   createCanvas(width, height);
   currentScene = 0;
@@ -126,11 +130,18 @@ function draw() {
     if (handReaderAudio.isLoaded() && !handReaderAudioPlayed && !answerAudio.isPlaying()) {
       handReaderAudio.play();
       handReaderAudioPlayed = true;
+      introVideo.stop();
+      scanHand.loop();
     }
-
     image(scanHand, 0, 0, width, height);
 
   } else if (currentScene == 7) {
+    // only do once
+    if (!scanningVideoLoaded) {
+      scanningVideoLoaded = true;
+      scanHand.stop();
+      scanning.loop();
+    }
     image(scanning, 0, 0, width, height);
     if (timerStarted == false) skipToNextScene(5000);
   } else if (currentScene == 8) {
@@ -140,6 +151,7 @@ function draw() {
     if (treeAudio.isLoaded() && !treeAudioPlayed) {
       treeAudio.play();
       treeAudioPlayed = true;
+      scanning.stop();
     }
     if (treeId != null) image(treeImage, 0, 0, width, height);
   }
@@ -233,7 +245,6 @@ function keyPressed() {
 function setVideo(video) {
   video.volume(0);
   video.size(width, height);
-  video.loop();
   video.hide();
 }
 

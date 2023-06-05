@@ -93,7 +93,6 @@ void loop() {
   long distance = ultrasonic.read();
 
   currentTime = millis();
-
   if (distance >= 0 && distance < distanceThreshold && currentScene == 6) {
     // trigger the 'D' key:
     Serial.println("distance (close): " + String(distance));
@@ -102,7 +101,7 @@ void loop() {
       Serial.println("Resetting timer...");
       closeTimerStarted = true;
       closeTimerStart = millis();
-      updateInterval = 2;
+      updateInterval = 1;
     } else if (millis() - closeTimerStart >= 3000) {
       Serial.println("Timer over...");
       // distance has been close for at least 3 seconds, trigger the function
