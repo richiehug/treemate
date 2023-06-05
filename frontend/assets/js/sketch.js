@@ -12,6 +12,9 @@ var blockDelay = 2000;
 var questionPlayed = false, answerPlayed = false, treeAudioPlayed = false, handReaderAudioPlayed = false;
 var initialRun = true, quizFirstRun = true;
 var answerAAudioLocation, answerBAudioLocation;
+let startTime;
+var maxIdleTime = 10 * 60 * 1000; // 5 minutes
+let fileWriter;
 
 let serial;
 
@@ -48,9 +51,9 @@ function preload() {
   b = loadImage('assets/img/b.png');
 
   // videos
-  introVideo = createVideo('assets/video/introVideo.webm');
-  scanHand = createVideo('assets/video/scanHand.webm');
-  scanning = createVideo('assets/video/scanning.webm');
+  introVideo = createVideo('assets/video/introVideo.mp4');
+  scanHand = createVideo('assets/video/scanHand.mp4');
+  scanning = createVideo('assets/video/scanning.mp4');
 
   serial = new p5.SerialPort();
   serial.list();
@@ -62,6 +65,9 @@ function preload() {
 }
 
 function setup() {
+  startTime = millis();
+  fileWriter = createWriter("assets/data/counter.txt"); 
+
   frameRate(24);
   width = document.documentElement.clientWidth;
   height = document.documentElement.clientHeight;
@@ -69,6 +75,9 @@ function setup() {
   setVideo(introVideo);
   setVideo(scanHand);
   setVideo(scanning);
+  background(0);
+
+  introVideo.loop();
 
   introVideo.loop();
 
@@ -92,6 +101,13 @@ function setup() {
 }
 
 function draw() {
+
+  if (millis() - startTime >= maxIdleTime) {
+    // Reload the browser window if too long idle
+    window.location.reload();
+  }
+
+
   if (initialRun && backgroundAudio.isLoaded() && birdsAudio.isLoaded()) {
     initialRun = false;
     backgroundAudio.loop();
@@ -164,6 +180,7 @@ function windowResized() {
 function keyPressed() {
 
   if (keyCode == 70 || keyCode == 78 || keyCode == 80 || keyCode == 65 || keyCode == 66 || keyCode == 82) {
+    startTime = millis();
     if (questionAudio.isPlaying()) questionAudio.stop();
     if (answerAudio.isPlaying()) answerAudio.stop();
     if (treeAudio.isPlaying()) treeAudio.stop();
@@ -208,7 +225,10 @@ function keyPressed() {
       if (currentScene == 0) {
         updateQuestionData((currentScene + 1).toString());
         nextScene(key);
-      } else setup();
+      } else {
+        increaseCounter();
+        setup();
+      }
       setTimeout(() => {
         blockKeys = false;
         answerAChosen = answerBChosen = false;
@@ -234,11 +254,7 @@ function keyPressed() {
   }
   else if (keyCode == 82) {
     // r key
-    console.log("Reset");
-    if (backgroundAudio.isPlaying()) backgroundAudio.stop();
-    if (birdsAudio.isPlaying()) birdsAudio.stop();
-    initialRun = true;
-    setup();
+    location.reload(true);
   }
 }
 
@@ -359,4 +375,27 @@ function intToByteArray(intValue) {
 
 function playButtonSound() {
   buttonSound.play();
+}
+
+function increaseCounter() {
+  const data = {};
+
+  fetch('http://localhost:3000/pushData', {  // Replace 'localhost' with the appropriate hostname or IP address if needed
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(data)
+})
+  .then(response => {
+    if (response.ok) {
+      console.log('Data pushed successfully');
+    } else {
+      console.error('Error pushing data');
+    }
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
 }
