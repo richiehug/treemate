@@ -1,6 +1,6 @@
 # Treemate
 
-Treemate offers a captivating journey of connecting users with a tree from Piemonte based on their personality. An interactive quiz will take the user through randomly selected questions from a question pool and reveal their tree match based on their individual choices. The interaction happens with two action buttons and one scanner: the buttons have lights to tell the user what buttons are active besides the instructions on the screen. Users can select to redo the quiz as often as they want and keep discovering other trees from Piemonte.
+Treemate offers a captivating journey of connecting users with a tree from Piemonte based on their personality. An interactive quiz takes the user through randomly selected questions from a question pool and reveals their tree match based on their individual choices. The interaction happens with two action buttons and one scanner: the buttons have lights to tell the user what buttons are active besides the instructions on the screen. Users can redo the quiz as often as they want and keep discovering other trees from Piemonte.
 
 Treemate was one of the projects exhibited at [Circolo's del Design](https://www.circolodeldesign.it/)'s Earthrise23.
 
