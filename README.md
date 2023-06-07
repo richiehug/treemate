@@ -13,7 +13,7 @@ Arduino files are located in the folder `interface` and the frontend part (P5.js
 
 ## Product Overview
 
-Initially, instructions about the Treemate quiz are shown on the screen. During the quiz, users must select A or B to answer an abstract personality question. The results of the user's answers will match them to a specific personality, and their personality will be then matched with a tree from Piemonte. At the end of the quiz, the user will be able to learn more about themselves and feel connected to a tree. All results have a beautiful message to take away. The installation involves a tree oracle, subtle background music, and sounds to make the user experience more immersive. Users can repeat the quiz repeatedly, where they will be confronted with different questions. Users will discover the trees from the region and have a great time, whether doing the quiz alone or with friends.
+Initially, instructions about the Treemate quiz are shown on the screen. During the quiz, users must select A or B to answer an abstract personality question. The results of the user's answers will match them to a specific personality, and their personality will be then matched with a tree from Piemonte. At the end of the quiz, the user will be able to learn more about themselves and feel connected to a tree. All results have a beautiful message to take away. The installation involves a voice assistant, subtle background music, and sounds to make the user experience more immersive. Users can repeat the quiz repeatedly, where they will be confronted with different questions. Users will discover the trees from the region and have a great time, whether doing the quiz alone or with friends.
 
 ![Treemate Interface](docs/treemate-interface.jpg)
 
