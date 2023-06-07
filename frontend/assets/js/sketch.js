@@ -187,6 +187,7 @@ function keyPressed() {
     if (handReaderAudio.isPlaying()) handReaderAudio.stop();
     avatarSpeaking = false;
     treeAudioPlayed = false;
+    addLog(null, key);
   }
 
   if (blockKeys) {
@@ -226,7 +227,6 @@ function keyPressed() {
         updateQuestionData((currentScene + 1).toString());
         nextScene(key);
       } else {
-        increaseCounter();
         setup();
       }
       setTimeout(() => {
@@ -300,6 +300,8 @@ function getTreeId() {
     const matchingTree = trees.find((tree) =>
       tree.answers.every((answer, index) => answer === answers[index])
     );
+
+    addLog(answers);
 
     return matchingTree ? matchingTree.id : null;
   } else {
@@ -377,25 +379,30 @@ function playButtonSound() {
   buttonSound.play();
 }
 
-function increaseCounter() {
-  const data = {};
+function addLog(answers = '', key = '') {
+  const data = {
+    answers,
+    key // Add the key to the data object
+  };
 
-  fetch('http://localhost:3000/pushData', {  // Replace 'localhost' with the appropriate hostname or IP address if needed
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(data)
-})
-  .then(response => {
-    if (response.ok) {
-      console.log('Data pushed successfully');
-    } else {
-      console.error('Error pushing data');
-    }
+  fetch('http://localhost:3000/addLog', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
   })
-  .catch(error => {
-    console.error(error);
-  });
-
+    .then(response => {
+      if (response.ok) {
+        return response.text(); // Get the log message from the response
+      } else {
+        throw new Error('Error adding log');
+      }
+    })
+    .then(logMessage => {
+      console.log('Log added:', logMessage); // Print the log message to the browser console
+    })
+    .catch(error => {
+      console.error(error);
+    });
 }
